@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Computer Networking Academy</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+    </head>
+    <body>
+        <img src="logos.png" alt="Logos of CVCC and CNA" class="center-img">
+        <h1 class="heading-title">Computer Networking Academy</h1><br>
+        <div class="mainContent">
+            <a onclick="openNav()">Class Information</a>
+            <a onclick="openNav1()">Open Course Schedule</a>
+            <a href="https://www.netacad.com/portal/learning">Open Cisco Courseware</a>
+            <a onclick="openNav2()">Help with . . .</a>
+            <a href="mailto:tmoore@cvccworks.edu">Contact the Teacher</a>
+            <a onclick="openNav3()">Other Links</a>
+        </div>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <h1 align="center">Class Information</h1>
+          <p></p>
+          <div class="overlayContent">
+            <a href="CVCC CNA Classroom Guidelines.pdf"><h4>Classroom Guidelines</h4></a>
+            <a href="CNA Syllabus 2011-2012.pdf"><h4>Syllabus</h4></a>
+            <a href="ParticipationBehavior Grading Scale.pdf"><h4>Technical Employability Grading Scale</h4></a>
+            <a href="#"><h4>_</h4></a>
+        </div>
+      </div>
+        <div id="myNav1" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+            <h1 align="center">Course Schedule</h1>
+            <p></p>
+            <div class="overlayContent">
+              <!--link here-->
+            </div>
+        </div>
+        <div id="myNav2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+            <h1 align="center">Help with . . .</h1>
+            <p></p>
+            <div class="overlayContent">
+              <a href="subnetting.html"><h4>Subnetting</h4></a>
+              <a href="#"><h4>Job Research</h4></a>
+              <a href="#"><h4>College Information</h4></a>
+              <a href="#"><h4>Standards Organizations</h4></a>
+              <a href="2011_Cisco Icons_6_8_11.pdf"><h4>Packet Tracer Device Icons Key</h4></a>
+              <a href="osi protocols.jpg"><h4>OSI Protocols</h4></a>
+          </div>
+        </div>
+        <div id="myNav3" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+            <h1 align="center">Other Links</h1>
+            <p></p>
+        </div>
+    </body> 
+    <script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  function openNav1() {
+    document.getElementById("myNav1").style.width = "100%";
+  }
+function closeNav1() {
+    document.getElementById("myNav1").style.width = "0%";
+  }
+function openNav2() {
+    document.getElementById("myNav2").style.width = "100%";
+  }
+function closeNav2() {
+    document.getElementById("myNav2").style.width = "0%";
+  }
+function openNav3() {
+    document.getElementById("myNav3").style.width = "100%";
+  }
+function closeNav3() {
+    document.getElementById("myNav3").style.width = "0%";
+  }
+    </script>
+</html>

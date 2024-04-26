@@ -1,0 +1,93 @@
+html { 
+    background-color: #141414;
+    color: #9e9e9e;
+    font-family: Orbitron;
+}
+.center-img {
+    padding: 2%;
+    height: 130px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+.mainContent {
+/**    border: solid #a5a5a5 2px;
+    border-radius: 30px; **/
+    padding: 2px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .mainContent a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #9e9e9e;
+    cursor: pointer;
+    display: block;
+    transition: 0.3s;
+  }
+  .mainContent a:hover, .mainContent a:focus {
+    color: #ffffff;
+  }
+  /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    color: #9e9e9e;
+    background-color: rgb(69, 69, 69); /* Black fallback color */
+    background-color: rgba(69,69,69, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #9e9e9e;
+    text-decoration: none;
+  }
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }  
+.overlayContent {
+  /**    border: solid #a5a5a5 2px;
+      border-radius: 30px; **/
+      padding: 2px;
+      position: relative;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .overlayContent a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 23px;
+      color: #9e9e9e;
+      cursor: pointer;
+      display: block;
+      transition: 0.3s;
+    }
+    .overlayContent a:hover, .overlayContent a:focus {
+      color: #ffffff;
+    }
